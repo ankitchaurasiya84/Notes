@@ -1,5 +1,7 @@
 JS theory
 
+ JS is syncronous single threaded programmoing language
+
 ========Primitive data type=========
 
 Primitive data types can store only a single value. To store multiple and complex values, non-primitive data types are used.
