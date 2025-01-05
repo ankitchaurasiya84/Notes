@@ -120,6 +120,27 @@ This results in faster initial load times, reduced memory usage, and an overall 
 
 ======================
 
+===============useEffect hooks===============
+Use effect called after ui render .ie Side effect( calling APi, loading subscription)
+It accept two parameter :1 effect function, 2: dependency Array
+Dependency arry (optional) act as trigger for use effect to rerun. if dependency array changes then re execute useEffect
+multiple depecndy can have
+[] array indicates useeffect run at once.
+
+
+========useContext============
+it is used to pass data child to parent without using props
+
+=====createContext() function===
+
+createContext) function returns an object with Provider and Consumer properties.
+* The Provider property is responsible for providing the context value to all its child components.
+useContext) method or Consumer property can be used to consume the context value in child components.
+
+============when we use useContext==========
+Use useContext instead of props when you want to avoid prop drilling and 
+access context values directly within deeply nested components.
+
 ) Hooks:
 useState: Manages state in functional components.
 useEffect: Handles side effects in functional components.
