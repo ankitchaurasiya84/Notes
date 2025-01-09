@@ -1,0 +1,3 @@
+I am currently working as a Production Support Developer with experience on the ADD CCT (Advance Drug Development - Connected Clinical Trials) project for Johnson & Johnson (JNJ). My responsibilities include managing MongoDB data changes, resolving React SAST issues, and addressing CVE vulnerabilities in Spring Boot, ensuring the portal supports secure and efficient medicine trials across multiple countries.
+
+In addition to support tasks, I have contributed to development by debugging, implementing security fixes, and optimizing database workflows. These experiences have fueled my transition into a development role, where I aim to build secure, scalable, and impactful applications."ß
