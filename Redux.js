@@ -19,3 +19,4 @@ Redux is a third-party library for JavaScript.
  **Middleware**: Functions to extend Redux, often used for handling side effects like API calls.  
  **Predictability**: State updates are consistent and traceable due to the flow of actions and reducers.  
 
+ 
