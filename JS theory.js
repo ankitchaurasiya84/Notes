@@ -11,7 +11,7 @@ Number		Numeric values (integer and floating-point)	42, 3.14
 String		Sequence of characters	"Hello, World!", 'abc'
 Boolean		Logical values: true or false				true, false
 Undefined	Variable not yet assigned a value			let x; console.log(x);
-Null		Intentional absence of value				let y = null;
+Null		  Intentional absence of value				let y = null;
 Symbol		Unique and immutable value					Symbol('id')
 BigInt		Large integers beyond Number limits	1234567890123456789012345678901234567890n
 
@@ -71,6 +71,11 @@ console.log(name); // Outputs "John"
 Hoisting in JavaScript is the process where declarations of variables and functions 
 are moved to the top of their scope, allowing them to be used before they are declared in the code. 
 However, only the declarations are hoisted, not the initializations, leading to undefined values or errors if not handled properly.
+
+================Temporal Dead Zone (TDZ)============
+The Temporal Dead Zone (TDZ) is the period between the creation of a variable (when its scope is entered) and its initialization (when the code assigns it a value). During this period, attempting to access the variable will result in a ReferenceError.
+
+This applies to variables declared with let, const, and class (but not var).
 
 =================Coercion=====================
 
