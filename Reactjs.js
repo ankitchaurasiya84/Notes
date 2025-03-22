@@ -264,5 +264,44 @@ Rendering of components: Optimizing rendering for better performance.
 Tailwind, StyleX, Bootstrap, Material UI, Ant UI, CSS / SCSS: Different styling approaches and libraries.
 
 
+Q: Can you explain the difference between var, let, and const in JavaScript?
+Q: What is the event loop in JavaScript? How does it work?
+Q: What is the purpose of closures in JavaScript? Can you provide an example?
+Q: Explain the concept of 'this' in JavaScript. How does it behave in different contexts (e.g., inside a function, in an arrow function, in an object method)?
+
+What is a promise in JavaScript, and how do async/await work with promises? and how to handle promise?
+
+Q: What is callback function?
+A callback function is a function that is passed into another function as an argument and is executed once the asynchronous task is completed.
+
+Q: what is callback hell?
+Callback hell happens when you have deeply nested callbacks due to multiple asynchronous operations. It makes the code harder to read, debug, and maintain. To solve this, developers often use Promises or Async/Await, both of which make asynchronous code easier to manage and more readable.
+
+Q:babel: Converts modern JavaScript (or other languages) to an equivalent, older version of JavaScript.
+
+Q:What is spread operator, Rest operator ,default parameter
+
+Q: What are the falsy values in javascript?
+false
+0 and -0
+"" (empty string)
+null
+undefined
+NaN
+Q:
+
+const element = <h1>Hello, world!</h1>;
+
+Redux  vs Reedux toolkit
+
+Q: Shallow copy: it create new object butv keep reference for nested object like array object. modification of nested object will affect the copied object.
+
+Q: Deep copy: it create a compltely independent clone, ensuring changes to tthe original object do not affcet the copiesd object.
+
+Q: Difference between null and undefined in JS.
+Q: Virtual DOM? Memory rep of Actutal DOM, Clone of DOM, use diifing aldo to compare node and optimize perfromance.
+
+
+
 
 
