@@ -38,3 +38,19 @@ Q12: margin vs padding.
 
 
 Q13: Why scroll bar appear in webpage? : Scroll bars appear on HTML web pages for several reasons, primarily related to content overflow and layout.
+
+Explain the difference between inline, block, and inline-block elements in CSS.
+How do you create a responsive web design? What are some techniques and tools you use?
+What are semantic HTML elements? Can you name a few and explain why they are important?
+What is the CSS box model? Can you explain the different parts (content, padding, border, margin)?
+How would you center a div element both horizontally and vertically?
+
+types of tags:
+
+Table tags
+Media tags
+Sementic tags
+formating tags
+from tags
+list tags
+Grouping Tags.
