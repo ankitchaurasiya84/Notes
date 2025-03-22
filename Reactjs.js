@@ -181,7 +181,65 @@ Imagine you're working in a team, and you have a standard operating procedure (S
 Without useCallback: The SOP is rewritten from scratch every day, even if it hasn't changed.
 With useCallback: The SOP is stored and reused unless something in the task changes.
 
+Websoket:  WebSockets allow for continuous, real-time communication between the client and server.
 
+localStorage: size 5mb, It persist even after browser is closed , Data in localStorage is available across different tabs and windows of the same origin
+
+localStorage, sessionStorage, and cookies?
+
+Lazy Loading,
+Pagination,
+Role based preview
+hooks:  	  hooks let you add state, lifecycle methods, and other React features to functional components without needing to write a class-based component.				 Before hooks, you'd have to use class components to manage state and perform side effects,
+
+Stateless vs Statefull component:
+
+```
+	Stateless components are simpler, just rendering what’s passed to them as props. They do not maintain or modify any internal state, making them easier to reason about and test.
+
+	Stateful components, on the other hand, handle dynamic behavior, such as managing form inputs, handling user interactions, or fetching and displaying data from an API.
+
+```
+
+=================
+Q: "Can you explain what happens if you use useEffect without a dependency array?"
+Q: What’s the difference between using useEffect with a dependency array and without one?"
+Q:Explain the concept of a "virtual DOM" in React and how it improves performance.
+
+Q:What are the differences between functional components and class components?
+
+Q: What are hooks in React? Can you name a few common ones and explain their usage?
+
+```
+	A: The useEffect hook in React is used to perform side effects in your components. A side effect is any action that occurs outside the component’s render process, like:
+
+		Fetching data from an API
+		Updating the DOM
+		Setting up subscriptions or timers
+		Cleaning up resources (like event listeners or intervals)
+
+```
+
+Q: What are controlled and uncontrolled components in React? Can you explain the differences?
+A:	In React, uncontrolled components are those where the form data is handled by the DOM itself rather than by the React state.
+
+Q: Explain React's reconciliation process. How does React decide which parts of the DOM need to be updated?
+
+Q: Virtual DOM?
+React maintains a virtual DOM, which is an in-memory representation of the actual DOM. When the state or props of a component change, React updates the virtual DOM first, rather than directly manipulating the real DOM.
+
+Q: What is the difference between React.createElement() and JSX? How do they relate?
+
+Q: What is the key prop, and why is it important when rendering lists in React?
+
+Q: Diffing: React compares the new virtual DOM tree with the previous one. This process is known as diffing.
+to compare the two trees and detect the differences (called "diffs").
+Q: Reconciliation: The process of comparing the old and new virtual DOMs and updating the real DOM in an efficient way.
+
+Q: Spread oprator vs Rest Operator?
+The rest operator is used to collect multiple elements into a single array or object.
+
+Q: memorization:  is a technique used to optimize performance by avoiding unnecessary re-rendering of components or recalculation of values. This is often 		achieved through techniques such as memoization and React's built-in hooks like React.memo and useMemo.
 
 
 useRef: Creates a mutable object that persists between renders.
