@@ -8,3 +8,5 @@
 2: Display data from array of Object to table using React JS
 3: intial red Lght 15sec yellow , green,
 4: railway ticket system
+5: Impliment pagination using DummyJSON api.
+6: impliment progress bar [dynamic]
