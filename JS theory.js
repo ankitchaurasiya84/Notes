@@ -271,6 +271,13 @@ Q: Deep copy: it create a compltely independent clone, ensuring changes to tthe 
 
 Q: Difference between null and undefined in JS.
 Q: Virtual DOM? Memory rep of Actutal DOM, Clone of DOM, use diifing aldo to compare node and optimize perfromance.
+Q: SetInterval vs setTImeOut?
+   Feature: 	      setTimeout()                      	 setInterval()
+   Execution	     :Runs once after delay         	     Runs repeatedly at interval
+   Can be stopped?:No need (executes only once)	       Use clearInterval() to stop
+   Use Cases:      Delayed execution	                  Repeating tasks
+
+    setTimeout(function, delay);  setInterval(function, interval);
 
 
 
