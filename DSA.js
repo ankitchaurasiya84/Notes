@@ -1,3 +1,7 @@
+keyconcept:
+adding array: [...array1,...array2]
+checking if strsing contains specific letter. "Ankit".includess("n") returns true
+
 // var intToBinary = function(num) {
 //     res=''
 //     while(num!=1){
@@ -761,18 +765,21 @@
 
 // console.log(candies,extraCandies)
 
-let nums=[1,2,3,3,4,5,7,8,4,3]
-let size=3
+// let nums=[1,2,3,3,4,5,7,8,4,3]
+// let size=3
 
-var ques=function(nums,size){
-    debugger
-    let res=[]
-for(let i=0;i<nums.length;i+=size){
-    let chunks=nums.slice(i,i+size)
-    res.push(chunks)
-}
-return res
+// var ques=function(nums,size){
+//     debugger
+//     let res=[]
+// for(let i=0;i<nums.length;i+=size){
+//     let chunks=nums.slice(i,i+size)
+//     res.push(chunks)
+// }
+// return res
 
-}
+// }
 
-console.log(ques(nums,size));
+// console.log(ques(nums,size));
+
+
+
