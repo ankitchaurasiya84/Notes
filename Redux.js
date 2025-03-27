@@ -4,6 +4,34 @@ Redux Store → Kitchen where orders (actions) are processed.
 Slice → Chef who follows recipes (reducers) to modify state.
 State → Final Dish served back to the UI.
 
+    ┌───────────────┐
+     │   Component   │
+     │ (UI Layer)    │
+     └──────┬────────┘
+            │ (useDispatch, useSelector)
+            ▼
+     ┌───────────────┐
+     │   Redux Store │
+     │(configureStore)│
+     └──────┬────────┘
+            │
+    ┌───────────────┐
+    │ Redux Slice   │
+    │ (createSlice) │
+    └──────┬────────┘
+           │
+           ▼
+     ┌───────────────┐
+     │ Reducers      │  (State Updates)
+     │ Actions       │  (Dispatch Actions)
+     └───────────────┘
+           │
+           ▼
+     ┌───────────────┐
+     │ State         │  (Updated Global State)
+     └───────────────┘
+
+
 
   =====Real-World Analogy RTK query=======
 Component (UI) → Customer asking for data.
