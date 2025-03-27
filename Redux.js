@@ -1,3 +1,9 @@
+Component (UI Layer) → Customer who places an order.
+Redux Store → Kitchen where orders (actions) are processed.
+Slice → Chef who follows recipes (reducers) to modify state.
+State → Final Dish served back to the UI.
+
+
 1: What is Redux?
 
 Redux is a state management third-party library for JavaScript applications.
