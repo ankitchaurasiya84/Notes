@@ -112,4 +112,11 @@ Object.defineProperty(data1,"name",{
 data1.name="paddi" // Your JSON not update as per code
 
 
+console.log({} == {}); 
+console.log({} ==={}); 
+console.log(2*2)/ mul
+console.log(2**2) 2 ki power 2
+
+
+
 
