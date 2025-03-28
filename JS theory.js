@@ -278,6 +278,9 @@ Q: SetInterval vs setTImeOut?
    Use Cases:      Delayed execution	                  Repeating tasks
 
     setTimeout(function, delay);  setInterval(function, interval);
-
+Q:  Array.isArray(num) to check if it is array or not
+Q: flatMap() iterate with flat method.
+Q:
+Q: map()+flat()
 
 
