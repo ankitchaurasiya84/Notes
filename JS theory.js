@@ -280,7 +280,7 @@ Q: SetInterval vs setTImeOut?
     setTimeout(function, delay);  setInterval(function, interval);
 Q:  Array.isArray(num) to check if it is array or not
 Q: flatMap() iterate with flat method.
-Q:
+Q:✅ setItem() ✅ getItem() ✅ removeItem() ✅ clear() ✅ JSON.stringify() / JSON.parse() for local storage
 Q: map()+flat()
 
 
