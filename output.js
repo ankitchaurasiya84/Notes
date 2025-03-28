@@ -117,6 +117,37 @@ console.log({} ==={});
 console.log(2*2)/ mul
 console.log(2**2) 2 ki power 2
 
+let a = {
+    name: "Ank8t",
+};
+
+let b = { 
+    ...a // Spread operator creates a shallow copy
+};
+
+b.name = "lala"; 
+
+console.log(b.name); // Output: "lala"
+console.log(a.name); // Output: "Ank8t"
+
+
+let a=10
+let b= new Number(10)
+ley c=10
+
+console.log(a===b)
+console.log(b===c)
+console.log(a==b)
+console.log(b==c)
+
+Primitive vs Object:
+a and c are primitives (number).
+b is an object (Number instance).
+=== checks both type & value → false when comparing primitives with objects.
+== allows type conversion → true when an object (Number) is compared to a primitive.
+
+
+
 
 
 
