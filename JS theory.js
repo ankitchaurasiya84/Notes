@@ -1,5 +1,7 @@
 JS theory
 
+undefined → A declared variable that has not been assigned a value. occupy memory 
+"Not defined" → A variable that has never been declared, causing a ReferenceError.not occupy memory 
  JS is syncronous single threaded programmoing language
 
 ========Primitive data type=========
