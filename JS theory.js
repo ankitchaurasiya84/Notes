@@ -282,5 +282,7 @@ Q:  Array.isArray(num) to check if it is array or not
 Q: flatMap() iterate with flat method.
 Q:✅ setItem() ✅ getItem() ✅ removeItem() ✅ clear() ✅ JSON.stringify() / JSON.parse() for local storage
 Q: map()+flat()
+Q: arr.includes() 
+Q: arr.reduce()
 
 
