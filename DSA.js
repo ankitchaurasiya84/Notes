@@ -2,6 +2,24 @@ keyconcept:
 adding array: [...array1,...array2]
 checking if strsing contains specific letter. "Ankit".includess("n") returns true
 
+const mymap= new Map()
+Common Methods of Map
+set(key, value) – Adds/updates value
+get(key) – Retrieves value
+has(key) – Checks existence
+delete(key) – Removes key
+clear() – Empties the map
+size – Returns number of entries
+
+
+const myset= new Set()
+add(value) – Adds/updates value
+has(value) – Checks existence
+delete(value) – 
+clear() – Empties the map
+size – Returns number 
+
+
 // var intToBinary = function(num) {
 //     res=''
 //     while(num!=1){
