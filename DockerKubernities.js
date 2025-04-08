@@ -57,3 +57,18 @@ Build: docker build -t react-app:dev .
 
   logs: docker logs <container_id>
 
+=====================Kubernities========================
+Q:  Kubernetes is an open-source platform used to manage and orchestrate containers across multiple servers.
+     It automates deployment, scaling, and maintenance of containerized applications.
+Q: What are the main components of Kubernetes?
+      1:Master Node:
+      kube-apiserver, etcd, kube-scheduler, controller-manager
+      2: Worker Node:
+      kubelet, kube-proxy, and container runtime (like Docker)
+Q:What is a Pod in Kubernetes?
+   its is smallest deployable unit in k8t, it can contain one or more containers that share the same network/IP and storage.
+Q:What is kubelet?
+  An agent that runs on each worker node. It ensures containers are running as expected on that node.
+      
+   
+
