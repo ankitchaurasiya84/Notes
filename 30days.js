@@ -17,7 +17,7 @@ LocalStorage, SessionStorage, Cookies
 Fetch API, Axios, Error Handling
 🔹 Practice:
 
-Build a simple To-Do App using vanilla JS
+Build a simple To-Do App using react jS/ JS
 ✅ Day 5-7: Data Structures & Algorithms (DSA)
 
 Arrays, Objects, Sets, Maps
