@@ -283,6 +283,20 @@ Q: SetInterval vs setTImeOut?
    Use Cases:      Delayed execution	                  Repeating tasks
 
     setTimeout(function, delay);  setInterval(function, interval);
+
+
+Q:  Event Bubbling and event capturing: 
+  Event Bubbling and Event Capturing are two phases of the DOM event propagation mechanism in JavaScript.
+ They define how events travel through the DOM tree.
+
+| Feature          | Event Capturing     | Event Bubbling                 |
+| ---------------- | ------------------- | ------------------------------ |
+| Direction        | Top → Target        | Target → Top                   |
+| addEventListener | `useCapture = true` | `useCapture = false` (default) |
+| Commonly Used    | Rarely              | Yes (default phase)            |
+
+ 
+
 Q:  Array.isArray(num) to check if it is array or not
 Q: flatMap() iterate with flat method.
 Q:✅ setItem() ✅ getItem() ✅ removeItem() ✅ clear() ✅ JSON.stringify() / JSON.parse() for local storage
