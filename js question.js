@@ -13,4 +13,5 @@ Q12: what JavaScript
 Q13: call bind
 Q14 prototype 
 Q15: What is Default parameter and Rest parameter.
+Q16: what is Event Bubbling and event capturing?
 
