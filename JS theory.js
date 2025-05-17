@@ -190,7 +190,9 @@ A callback function is a function that is passed as an argument to another funct
 Pure Functions: Consistent output for the same inputs, no side effects.
 Impure Functions: Variable output based on external state, may have side effects.
 
-=========prevent bubling,event capturing============
+========= Event Delegation============
+ event delegation is a technique where single event listner on parent handle events of present and future child using event bubling
+
 
 ===============strick Mode ; type="module"==========
 
