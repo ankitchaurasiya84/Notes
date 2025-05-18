@@ -69,6 +69,18 @@ Q:What is a Pod in Kubernetes?
    its is smallest deployable unit in k8t, it can contain one or more containers that share the same network/IP and storage.
 Q:What is kubelet?
   An agent that runs on each worker node. It ensures containers are running as expected on that node.
+   
+Q: A docker file conatains 
+
+   FROM node:18-alpine            # Base image with Node.js
+WORKDIR /app                   # Set working directory in container
+COPY package*.json ./          # Copy package.json files
+RUN npm install                # Install dependencies
+COPY . .                       # Copy rest of the app
+RUN npm run build              # Build the React/Vite app
+EXPOSE 3000                    # Expose port 3000
+CMD ["npm", "start"]           # Start the app
+
       
    
 
