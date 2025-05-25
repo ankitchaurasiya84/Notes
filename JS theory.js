@@ -11,6 +11,18 @@ Q:1  What is the Event Loop in JavaScript?
      ...without blocking the main thread.
 
 
+Q: Function curring in js?
+     
+ function with multiple arguments is transformed into a series of functions, each taking a single argument and returning another function until all arguments are provided.
+ 
+ 
+ function data(a){
+    return function(b){
+        return a*b
+    }
+}
+console.log(data(1)(2))
+
 
  
 undefined → A declared variable that has not been assigned a value. occupy memory ..
