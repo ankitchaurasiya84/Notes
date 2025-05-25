@@ -1,5 +1,18 @@
 JS theory
 
+
+Q:1  What is the Event Loop in JavaScript?
+     The Event Loop is a mechanism that enables JavaScript (which is single-threaded) to perform asynchronous operations like:
+     
+     fetching data from APIs,
+     reading files,
+     timers (setTimeout, setInterval),
+     handling UI events
+     ...without blocking the main thread.
+
+
+
+ 
 undefined → A declared variable that has not been assigned a value. occupy memory ..
 Undefined is like a placeholder till a variable is not assigned a value.
  
