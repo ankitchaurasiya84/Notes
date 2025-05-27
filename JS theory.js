@@ -1,6 +1,6 @@
 JS theory
 
-
+----------------------------------------------------------
 Q:1  What is the Event Loop in JavaScript?
      The Event Loop is a mechanism that enables JavaScript (which is single-threaded) to perform asynchronous operations like:
      
@@ -10,7 +10,7 @@ Q:1  What is the Event Loop in JavaScript?
      handling UI events
      ...without blocking the main thread.
 
-
+----------------------------------------------------------
 Q: Function curring in js?
      
  function with multiple arguments is transformed into a series of functions, each taking a single argument and returning another function until all arguments are provided.
@@ -22,16 +22,28 @@ Q: Function curring in js?
     }
 }
 console.log(data(1)(2))
-
+----------------------------------------------------------
 Q:  Debouncing delays the execution of a function until after a specified time has passed since the last event. If the event is triggered again within the delay, the timer resets.
-
+     
+----------------------------------------------------------
+     
 Q: Throttling ensures that a function is executed at most once every specified interval, no matter how many times the event is triggered. example Google Map.
-
-
- 
+----------------------------------------------------------
+     
+Q: A Web API in the browser is a set of built-in tools and interfaces provided by the browser that allow JavaScript code running on a webpage to interact with the browser environment, user device, or network.
+     
+ ----------------------------------------------------------
+     
 undefined → A declared variable that has not been assigned a value. occupy memory ..
 Undefined is like a placeholder till a variable is not assigned a value.
- 
+ ----------------------------------------------------------
+
+
+localStorage: Data persists even after closing the browser/tab. Shared across all tabs of the same site.
+sessionStorage: Data lasts only until the tab/window is closed. Unique per tab.
+
+
+     
 "Not defined" → A variable that has never been declared, causing a ReferenceError.not occupy memory 
  JS is syncronous single threaded programmoing language
 JS- weakly typed language since it doesn't depend on data type declarations.
