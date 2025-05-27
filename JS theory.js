@@ -23,6 +23,10 @@ Q: Function curring in js?
 }
 console.log(data(1)(2))
 
+Q:  Debouncing delays the execution of a function until after a specified time has passed since the last event. If the event is triggered again within the delay, the timer resets.
+
+Q: Throttling ensures that a function is executed at most once every specified interval, no matter how many times the event is triggered. example Google Map.
+
 
  
 undefined → A declared variable that has not been assigned a value. occupy memory ..
