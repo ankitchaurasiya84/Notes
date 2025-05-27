@@ -30,7 +30,17 @@ Q:  Debouncing delays the execution of a function until after a specified time h
 Q: Throttling ensures that a function is executed at most once every specified interval, no matter how many times the event is triggered. example Google Map.
 ----------------------------------------------------------
      
-Q: A Web API in the browser is a set of built-in tools and interfaces provided by the browser that allow JavaScript code running on a webpage to interact with the browser environment, user device, or network.
+Q: A Web API in the browser is a set of built-in tools and interfaces provided by the browser that allow JavaScript code running on a webpage to interact with the browser environment, user device, or network..
+
+     | API Name          | What it does                                           |
+| ----------------- | ------------------------------------------------------ |
+| **DOM API**       | Access and modify webpage elements                     |
+| **Fetch API**     | Make HTTP requests to servers                          |
+| **Storage API**   | Save data locally (localStorage, sessionStorage)       |
+| **Timer API**     | Schedule functions with `setTimeout` and `setInterval` |
+| **Geolocation**   | Get user’s physical location (with permission)         |
+| **Notifications** | Show system notifications                            |
+
      
  ----------------------------------------------------------
      
@@ -40,7 +50,9 @@ Q: undefined → A declared variable that has not been assigned a value. occupy 
 
 Q:What are Hooks in React?
    Hooks are special functions introduced in React 16.8 that let you use state and other React features (like lifecycle methods) in       functional components.
+----------------------------------------------------------
 
+ Q:    A polyfill is a piece of code (usually JavaScript) that implements a modern web API or feature in older browsers that do not            natively support it, enabling developers to use new functionalities while maintaining backward compatibility.
 
 localStorage: Data persists even after closing the browser/tab. Shared across all tabs of the same site.
 sessionStorage: Data lasts only until the tab/window is closed. Unique per tab.
