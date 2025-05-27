@@ -34,9 +34,12 @@ Q: A Web API in the browser is a set of built-in tools and interfaces provided b
      
  ----------------------------------------------------------
      
-undefined → A declared variable that has not been assigned a value. occupy memory ..
-Undefined is like a placeholder till a variable is not assigned a value.
+Q: undefined → A declared variable that has not been assigned a value. occupy memory ..
+   Undefined is like a placeholder till a variable is not assigned a value.
  ----------------------------------------------------------
+
+Q:What are Hooks in React?
+   Hooks are special functions introduced in React 16.8 that let you use state and other React features (like lifecycle methods) in       functional components.
 
 
 localStorage: Data persists even after closing the browser/tab. Shared across all tabs of the same site.
