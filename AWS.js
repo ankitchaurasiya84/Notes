@@ -1,6 +1,34 @@
 IAM- Identity and access management : Permissions, Roles, Policies
+
+
+=========================================================================
 EC2= Elastcic Compute Cloud: Launch server, key pairs, security groups
-S3: Simple Stroage Service: 
+
+it provide secure and resizeable compute capacity in cloud.
+a virtual server running in AWS. You can install any OS, host applications, run scripts, or set up environments just like you would on a laptop/server.
+host Node JS app, react app, MongoDb Cron JOb etc.
+  
+Pay for what you use.....
+=========================================================================
+
+
+S3: Simple Stroage Service:  is a scalable, highly available, and durable object storage service provided by AWS.
+
+  
+
+=========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
