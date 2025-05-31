@@ -1,3 +1,10 @@
+IAM- Identity and access management : Permissions, Roles, Policies
+EC2= Elastcic Compute Cloud: Launch server, key pairs, security groups
+S3: Simple Stroage Service: 
+
+
+
+
 
 ## 🔐 **Identity & Access Management (IAM)**
 
