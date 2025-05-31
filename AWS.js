@@ -13,6 +13,7 @@ Pay for what you use.....
 
 
 S3: Simple Stroage Service:  is a scalable, highly available, and durable object storage service provided by AWS.
+   a object consist of Data and meta data.
 
   
 
